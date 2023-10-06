@@ -63,7 +63,7 @@ $ git push -u origin master  per caricare tutte le mie modifiche sul branch mast
 
 $ git fetch   serve per verificare se ci sono modifiche sulla repository remota
 
-$ git pull   per portare sul nostro repository locale gli stessi file che ci sono sulla repository online
+$ git pull origin master   per portare sul nostro repository locale gli stessi file che ci sono sulla repository online
 
 
 
