@@ -1,0 +1,77 @@
+https://git-scm.com/docs
+
+
+$ ls -> elenco della directory in cui ci troviamo
+
+$ cd -> per spostarsi tra le cartelle
+
+$ cd .. -> per tornare indietro (cartella superiore rispetto a quella che mi trovo)
+
+$ mkdir  per creare una cartella
+
+$ cd progetto_damiano per entrare nella cartella
+
+$ git init   per inizializzare git all'interno di una certa cartella
+
+$ ls -a  per vedere i file nascosti dal sistema
+
+$ cd .git   per entrare nella cartella git
+ 
+$ git status   fa vedere in che stato si trova la cartella di lavoro
+
+$ git add <file>     per aggiungere un file in ciò che verrà committato prossimamente
+
+$ git rm --cached pluto.txt   per rimuovere il file non ancora committato dall'index di git 
+
+$ git add .     per aggiungere tutti i file non ancora committati all'index
+
+$ git commit    per committare in locale nella cartella .git che abbiamo sul pc
+
+$ git commit -m  "messaggio"   per aggiungere un messaggio senza andare nell'editor
+
+$ git restore pippo.txt   per scartare le modifiche ad un file che abbiamo aggiunto nell'ultimo commit
+
+$ git log   per vedere tutto l'elenco dei commit che sono stati fatti
+
+$ git diff  fa vedere tutte le modifiche che sono state fatte in ogni riga del file
+
+$ git commit -a   aggiungi tutte le modifiche e committale direttamente senza passare dall'indice
+
+$ git show   serve per vedere il diff dell'ultimo commit che è stato fatto
+
+$ git show HEAD~1   serve per risalire al diff indietro di 1 
+
+$ git show <codice del log>   per vedere il diff di quella commit
+
+$ git revert   per fare tornare il file al commit precedente
+
+.gitignore  per inserire i file che non vogliamo che vengano committati
+
+$ git checkout -b  per creare un nuovo branch e lavorare separatamente dal master
+ 
+$ git branch   per vedere lista delle branch
+
+$ git merge <nome del file>   per aggiungere a master le modifiche fatte su una nuova branch
+
+$ git checkout <codice della commit>  per tornare indietro a com'era la situazione in quella commit
+
+$ git switch -   per switchare tra le branch
+
+$ git remote add origin <link della repository git>    per collegarsi ad una repository da remoto
+
+$ git push -u origin master  per caricare tutte le mie modifiche sul branch master su origin
+
+$ git fetch   serve per verificare se ci sono modifiche sulla repository remota
+
+$ git pull   per portare sul nostro repository locale gli stessi file che ci sono sulla repository online
+
+
+
+
+
+
+
+
+
+
+
